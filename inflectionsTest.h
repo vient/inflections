@@ -5,14 +5,14 @@
 
 namespace RussianInflections
 {
-	namespace Test
-	{
-		sex WhatSexIsIt(UnicodeString S);
-		grammatical_case WhatGrammaticalCaseIsIt(UnicodeString S);
+    namespace Test
+    {
+        sex WhatSexIsIt(UnicodeString S);
+        grammatical_case WhatGrammaticalCaseIsIt(UnicodeString S);
 
-		void UTF8(fileHandle & in, fileHandle & out);
-		void UTF8(char * in, char * out);
-	}
+        void UTF8(fileHandle & in, fileHandle & out);
+        void UTF8(char * in, char * out);
+    }
 }
 
 #endif // INFLECTIONSTEST_H_INCLUDED
